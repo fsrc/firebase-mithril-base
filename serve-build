@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# cd ./dist
+# npx autoreload-server \
+#   --watch "**/**.{html,css,js}" \
+#   --default-pages index.html \
+#   --path ./dist \
+#   --mount.path ./dist \
+#   --mount.target / \
+#   --port 8000
+
+cd ./dist
+npx live-server \
+  --port=8000 \
+  --no-browser \
+  --verbose
+  # --spa \
+  # --entry-file=./dist/index.html \
+
+cd -

@@ -1,0 +1,15 @@
+{
+  "name": "firebase-mithril-base",
+  "version": "1.0.0",
+  "description": "Base package",
+  "main": "index.js",
+  "author": "Fredrik Andersson",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "bundle-js": "^1.0.3",
+    "live-server": "^1.2.1",
+    "livescript": "^1.6.0",
+    "simple-autoreload-server": "^0.2.7"
+  }
+}
