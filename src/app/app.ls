@@ -1,5 +1,5 @@
 export require-app = ->
-  { h1, div }  = require-lib-html!
+  { h1, div, ul }  = require-lib-html!
 
   require! {
     \prelude-ls : {
@@ -8,9 +8,10 @@ export require-app = ->
   }
 
   view: ->
-    div {id:\wrapper},
-      [ h1({}, \app-page)
-      , h1({}, \testafasdfsdfaadfaasdfasdddfd)
-      ]
+    div({id:\wrapper},
+      [ul({class: 'navbar-nav bg-gradient-primary sidebar sidebar-dark accordion', id: "accordionSidebar"},
+        [
+        ])
+      ])
 
 
